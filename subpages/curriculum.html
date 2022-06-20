@@ -6,8 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="curriculum.css" />
+    <link rel="stylesheet" href="../navbar.css" />
   </head>
   <body>
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <input type="checkbox" name="" id="" />
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+        <ul class="menu-items">
+          <li><a style="color: #cfcfcf">curriculum</a></li>
+          <li><a href="../subpages/projects/projects.html">projects</a></li>
+        </ul>
+        <h3 class="logo"><a href="../index.html">IHY</a></h3>
+      </div>
+    </nav>
     <div id="content">
       <div class="first row">
         <img src="../assets/isaacFoto.jpg" class="profilePic" />
@@ -17,7 +33,8 @@
           <p>
             Computer engineering student at Universidad de la Sabana in
             Colombia, I'm passionate about web development. currently im
-            sharpening my skills in the MERN (Mongo,Express,React,Node) stack, data science and business inteligence.
+            sharpening my skills in the MERN (Mongo,Express,React,Node) stack,
+            data science and business inteligence.
           </p>
         </div>
       </div>
@@ -25,62 +42,84 @@
         <div class="flashcard">
           <h3>Experience</h3>
           <ul class="withLine">
-            <li>I coded "myAddressValidator" which is a web platform that helps on the input validation of customers delivery information in Dell colombia.</li>
-            <li>I coded "myBdcDash" which is a web platform that is willing to help Oracle Colombia managers take a deep look into what is happening on the daily basis of their colaborators in sales So thay can take better desitions.</li>
-            <li>Currently im part of team that is developing "cuidarte" which is a mobile app that is looking to help old age people in their medical treatments.</li>
+            <li>
+              I coded "myAddressValidator" which is a web platform that helps on
+              the input validation of customers delivery information in Dell
+              colombia.
+            </li>
+            <li>
+              I coded "myBdcDash" which is a web platform that is willing to
+              help Oracle Colombia managers take a deep look into what is
+              happening on the daily basis of their colaborators in sales So
+              thay can take better desitions.
+            </li>
+            <li>
+              Currently im part of team that is developing "cuidarte" which is a
+              mobile app that is looking to help old age people in their medical
+              treatments.
+            </li>
           </ul>
-          <a href="../subpages/projects"><span>whant to see more about my projects?</span></a>
+          <a href="../subpages/projects"
+            ><span>whant to see more about my projects?</span></a
+          >
         </div>
         <div class="flashcard">
-            <h3>Achievemes</h3>
-            <ul class="withLine">
-              <li>Hackaton winner: Prodigious with UniSabana 2021</li>
-              <li>Global Operations Innovation Olympics winner at Dell</li>
-              <li>Member of Human computer interaction Universidad de la Sabana´s investigation group</li>
-              <li>Member of Automated Machine learning  Universidad de la Sabana´s investigation group</li>
-              <li>Graduated with honours from school</li>
-            </ul>
-          </div>
+          <h3>Achievemes</h3>
+          <ul class="withLine">
+            <li>Hackaton winner: Prodigious with UniSabana 2021</li>
+            <li>Global Operations Innovation Olympics winner at Dell</li>
+            <li>
+              Member of Human computer interaction Universidad de la Sabana´s
+              investigation group
+            </li>
+            <li>
+              Member of Automated Machine learning Universidad de la Sabana´s
+              investigation group
+            </li>
+            <li>Graduated with honours from school</li>
+          </ul>
+        </div>
       </div>
       <div class="row">
         <div class="flashcard">
           <h3>Skills</h3>
           <ul id="skills">
-            <li style="--sqrcolor: #FFDA8D">Python</li>
-            <li style="--sqrcolor: #FFCB71">JavaScript</li>
-            <li style="--sqrcolor: #FFCB71">Data minning</li>
-            <li style="--sqrcolor: #FFB342">ReactJS</li>
-            <li style="--sqrcolor: #FFB342">HTML5</li>
-            <li style="--sqrcolor: #DB8F30">CSS3</li>
-            <li style="--sqrcolor: #DB8F30">Java</li>
-            <li style="--sqrcolor: #B76E21">NodeJs</li>
-            <li style="--sqrcolor: #B76E21">ExpressJs</li>
+            <li style="--sqrcolor: #ffda8d">Python</li>
+            <li style="--sqrcolor: #ffcb71">JavaScript</li>
+            <li style="--sqrcolor: #ffcb71">Data minning</li>
+            <li style="--sqrcolor: #ffb342">ReactJS</li>
+            <li style="--sqrcolor: #ffb342">HTML5</li>
+            <li style="--sqrcolor: #db8f30">CSS3</li>
+            <li style="--sqrcolor: #db8f30">Java</li>
+            <li style="--sqrcolor: #b76e21">NodeJs</li>
+            <li style="--sqrcolor: #b76e21">ExpressJs</li>
             <li style="--sqrcolor: #935115">Firebase</li>
             <li style="--sqrcolor: #935115">mySql</li>
-            <li style="--sqrcolor: #7A3C0C">Figma</li>
-            <li style="--sqrcolor: #7A3C0C">git/github</li>
+            <li style="--sqrcolor: #7a3c0c">Figma</li>
+            <li style="--sqrcolor: #7a3c0c">git/github</li>
           </ul>
         </div>
         <div class="flashcard">
-            <h3>Education</h3>
-            <ul class="withLine education">
-              <li>
-                <h4>Universidad De La Sabana</h4>
-                <div>
-                  <p>Computer engineering. <br/> Chía Colombia. </p>
-                  <span>2019-2023</span>
-                </div>
-              </li>
-              <li>
-                <h4>Liceo El Encuentro</h4>
-                <div>
-                  <p>Middle and high school.<br/>Bogotá Colombia</p>
-                </div>
-                
-              </li>
-            </ul>
-          </div>
-        
+          <h3>Education</h3>
+          <ul class="withLine education">
+            <li>
+              <h4>Universidad De La Sabana</h4>
+              <div>
+                <p>
+                  Computer engineering. <br />
+                  Chía Colombia.
+                </p>
+                <span>2019-2023</span>
+              </div>
+            </li>
+            <li>
+              <h4>Liceo El Encuentro</h4>
+              <div>
+                <p>Middle and high school.<br />Bogotá Colombia</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </body>
