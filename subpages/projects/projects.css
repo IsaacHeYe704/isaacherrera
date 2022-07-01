@@ -42,7 +42,7 @@ section{
   padding: 10px;
   padding-top: 80px;
   display: flex;
-  min-height: 100vh;
+
   flex-direction: column;
 }
 #first{ 
@@ -136,11 +136,19 @@ i img{
   transform: rotateY(180deg);
   padding: 20px;
 }
-.back:hover{
-  
-}
 i{
   color: gold;
+}
+.Url{ 
+  border-radius: 10px; 
+  margin-bottom: 10px;
+  border-color: transparent;
+  font-size: 1em;
+}
+.Url:hover{
+  background-color: #007cf0;
+  color: white;
+  cursor: pointer;
 }
 @keyframes fadein {
   from { opacity: 0; }
