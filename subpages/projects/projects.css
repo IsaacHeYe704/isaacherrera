@@ -63,6 +63,7 @@ section{
 .techs_list{
   display: grid;
   grid-template-columns: 1fr 1fr;
+
   grid-gap: 30px;
   width: max-content;
   margin-left: auto;
@@ -79,6 +80,7 @@ section{
   animation-delay: var(--delay);
   background-color: var(--color);
 }
+
 i img{
   margin-right: 10px;
   width: 55px;
