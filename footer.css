@@ -1,0 +1,20 @@
+footer
+{
+  display: flex;
+  justify-content: space-evenly ;  
+  flex-wrap: wrap;
+  margin-top: 100px;
+  font-size: 1.5em;
+}
+footer span
+{
+  width: 27ch;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+i
+{
+  margin-right: 10px;
+  color: black;
+}
